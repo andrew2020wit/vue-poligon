@@ -43,6 +43,7 @@ export default {
 }
 
 .main {
+  padding-left: 1rem;
   width: 100%;
   flex: 1;
 }
