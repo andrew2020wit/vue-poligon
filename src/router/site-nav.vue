@@ -1,40 +1,28 @@
 <template>
   <div>
-    <b-nav pills>
-      <b-nav-item
-        ><router-link to="/" exact exact-active-class="router-link-active">
-          Home
-        </router-link>
+    <b-nav>
+      <b-nav-item to="/" exact exact-active-class="active">
+        Home
       </b-nav-item>
-      <b-nav-item
-        ><router-link to="/base" exact exact-active-class="router-link-active">
-          Base
-        </router-link>
+      <b-nav-item to="/base" exact exact-active-class="active">
+        Base
       </b-nav-item>
-      <b-nav-item
-        ><router-link
-          to="/vuex-page"
-          exact
-          exact-active-class="router-link-active"
-        >
-          VuexPage
-        </router-link>
+      <b-nav-item to="/vuex-page" exact exact-active-class="active">
+        VuexPage
       </b-nav-item>
-      <b-nav-item>
-        <router-link to="/about" exact exact-active-class="router-link-active"
-          >About</router-link
-        ></b-nav-item
-      >
+      <b-nav-item to="/about" exact exact-active-class="active">
+        About
+      </b-nav-item>
     </b-nav>
-  </div></template
->
+  </div>
+</template>
 <script>
 export default {
   name: "SiteNav",
 };
 </script>
 <style scoped>
-.router-link-active {
-  background-color: greenyellow;
+.active {
+  background-color: aliceblue;
 }
 </style>
