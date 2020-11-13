@@ -2,7 +2,7 @@
   <div>
     <div>
       <ol>
-        Users:
+        <strong>Users from https://jsonplaceholder.typicode.com/users:</strong>
         <li
           v-for="user in this.$store.state.JsonPlaceHolder.users"
           :key="user.id"
